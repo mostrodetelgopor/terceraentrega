@@ -1,0 +1,809 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+}
+
+.aside {
+  background-color: rgb(197, 70, 70);
+  padding: 1.2rem;
+  grid-area: aside;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aside h2 {
+  align-self: center;
+  margin: 1rem;
+}
+
+.aside h3 {
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.aside img {
+  align-self: center;
+  margin: 1rem;
+  scale: 75%;
+}
+
+.blasto {
+  background-image: url(/img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg);
+  background: repeat cover;
+  padding: 1.4rem;
+  grid-area: blasto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blasto img {
+  width: 69px;
+}
+
+.blasto nav ul {
+  list-style: none;
+  background-color: #7f8bf7;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.blasto nav ul a {
+  color: black;
+  text-decoration: none;
+  padding: 0.7rem;
+  display: block;
+}
+
+.blasto nav ul ul {
+  position: absolute;
+  display: none;
+}
+
+.blasto nav ul ul li {
+  display: block;
+}
+
+ul li:hover ul {
+  display: block;
+  background-color: rgb(141, 110, 110);
+}
+
+.blasto nav li a:hover {
+  background-color: rgb(107, 181, 216);
+  color: black;
+}
+
+.blastoaside {
+  background-color: #7ff7d9;
+  padding: 1.2rem;
+  grid-area: blastoaside;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blastoaside h2 {
+  align-self: center;
+  margin: 1rem;
+}
+
+.blastoaside h3 {
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.blastoaside img {
+  align-content: center;
+  margin-left: 12rem;
+  width: 200px;
+}
+
+.blastoaside img:hover {
+  scale: 125%;
+}
+
+.blastocontenedor {
+  margin: auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto 4fr auto;
+  grid-template-areas: "blasto blasto" "blastomain blastoaside" "footer footer";
+}
+
+.blastomain {
+  background-color: white;
+  padding: 1.2rem;
+  grid-area: blastomain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blastomain h1 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.blastomain .img {
+  align-self: center;
+}
+
+.blastomain p {
+  line-height: 1.5;
+  padding: 1rem;
+}
+
+.contenedor {
+  margin: auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto 4fr auto;
+  grid-template-areas: "header header" "main aside" "footer footer";
+}
+
+.footer {
+  background-color: #7b7b7b;
+  padding: 1.2rem;
+  grid-area: footer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer p {
+  color: white;
+}
+
+.footer img {
+  width: 100px;
+}
+
+.header {
+  background-image: url(/img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg);
+  background: repeat cover;
+  padding: 1.4rem;
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  width: 200px;
+}
+
+.header nav ul {
+  list-style: none;
+  background-color: #3d3d3d;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header nav ul a {
+  color: white;
+  text-decoration: none;
+  padding: 0.7rem;
+  display: block;
+}
+
+.header nav ul ul {
+  position: absolute;
+  display: none;
+}
+
+.header nav ul ul li {
+  display: block;
+}
+
+ul li:hover ul {
+  display: block;
+  background-color: pink;
+}
+
+.header nav li a:hover {
+  background-color: #888888;
+  color: black;
+}
+
+.main {
+  background-color: white;
+  padding: 1.2rem;
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main h1 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.main .img {
+  align-self: center;
+}
+
+.main p {
+  line-height: 1.5;
+  padding: 1rem;
+}
+
+.pichu {
+  background-image: url(/img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg);
+  background: repeat cover;
+  padding: 1.4rem;
+  grid-area: pichu;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pichu img {
+  width: 69px;
+}
+
+.pichu nav ul {
+  list-style: none;
+  background-color: #ffd000;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pichu nav ul a {
+  color: black;
+  text-decoration: none;
+  padding: 0.7rem;
+  display: block;
+}
+
+.pichu nav ul ul {
+  position: absolute;
+  display: none;
+}
+
+.pichu nav ul ul li {
+  display: block;
+}
+
+ul li:hover ul {
+  display: block;
+  background-color: pink;
+}
+
+.pichu nav li a:hover {
+  background-color: red;
+  color: black;
+}
+
+.pichuaside {
+  background-image: url(/img/Pikachu-Wallpaper-Pics-Download-2-scaled.jpg);
+  padding: 1.2rem;
+  grid-area: pichuaside;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pichuaside h2 {
+  align-self: center;
+  margin: 1rem;
+}
+
+.pichuaside h3 {
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.pichuaside img {
+  align-content: center;
+  margin-left: 12rem;
+  width: 200px;
+}
+
+.pichuaside img:hover {
+  scale: 125%;
+}
+
+.pichucontenedor {
+  margin: auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto 4fr auto;
+  grid-template-areas: "pichu pichu" "pichumain pichuaside" "footer footer";
+}
+
+.pichumain {
+  background-color: white;
+  padding: 1.2rem;
+  grid-area: pichumain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pichumain h1 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.pichumain .img {
+  align-self: center;
+}
+
+.pichumain p {
+  line-height: 1.5;
+  padding: 1rem;
+}
+
+.pika {
+  background-image: url(/img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg);
+  background: repeat cover;
+  padding: 1.4rem;
+  grid-area: pika;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pika img {
+  width: 69px;
+}
+
+.pika nav ul {
+  list-style: none;
+  background-color: #ffd000;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pika nav ul a {
+  color: black;
+  text-decoration: none;
+  padding: 0.7rem;
+  display: block;
+}
+
+.pika nav ul ul {
+  position: absolute;
+  display: none;
+}
+
+.pika nav ul ul li {
+  display: block;
+}
+
+ul li:hover ul {
+  display: block;
+  background-color: pink;
+}
+
+.pika nav li a:hover {
+  background-color: red;
+  color: black;
+}
+
+.pikaaside {
+  background-image: url(/img/Pikachu-Wallpaper-Pics-Download-2-scaled.jpg);
+  padding: 1.2rem;
+  grid-area: pikaaside;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pikaaside h2 {
+  align-self: center;
+  margin: 1rem;
+}
+
+.pikaaside h3 {
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.pikaaside img {
+  align-content: center;
+  margin-left: 12rem;
+  width: 200px;
+}
+
+.pikaaside img:hover {
+  scale: 125%;
+}
+
+.pikacontenedor {
+  margin: auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto 4fr auto;
+  grid-template-areas: "pika pika" "pikamain pikaaside" "footer footer";
+}
+
+.pikamain {
+  background-color: white;
+  padding: 1.2rem;
+  grid-area: pikamain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pikamain h1 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.pikamain .img {
+  align-self: center;
+}
+
+.pikamain p {
+  line-height: 1.5;
+  padding: 1rem;
+}
+
+.raiaside {
+  background-image: url(/img/Pikachu-Wallpaper-Pics-Download-2-scaled.jpg);
+  padding: 1.2rem;
+  grid-area: raiaside;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.raiaside h2 {
+  align-self: center;
+  margin: 1rem;
+}
+
+.raiaside h3 {
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.raiaside img {
+  align-content: center;
+  margin-left: 12rem;
+  width: 200px;
+}
+
+.raiaside img:hover {
+  scale: 125%;
+}
+
+.raichu {
+  background-image: url(/img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg);
+  background: repeat cover;
+  padding: 1.4rem;
+  grid-area: raichu;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.raichu img {
+  width: 100px;
+}
+
+.raichu nav ul {
+  list-style: none;
+  background-color: #ffd000;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.raichu nav ul a {
+  color: black;
+  text-decoration: none;
+  padding: 0.7rem;
+  display: block;
+}
+
+.raichu nav ul ul {
+  position: absolute;
+  display: none;
+}
+
+.raichu nav ul ul li {
+  display: block;
+}
+
+ul li:hover ul {
+  display: block;
+  background-color: pink;
+}
+
+.raichu nav li a:hover {
+  background-color: red;
+  color: black;
+}
+
+.raicontenedor {
+  margin: auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto 4fr auto;
+  grid-template-areas: "raichu raichu" "raimain raiaside" "footer footer";
+}
+
+.raimain {
+  background-color: white;
+  padding: 1.2rem;
+  grid-area: raimain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.raimain h1 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.raimain .img {
+  align-self: center;
+}
+
+.raimain p {
+  line-height: 1.5;
+  padding: 1rem;
+}
+
+.sqaside {
+  background-color: #7ff7d9;
+  padding: 1.2rem;
+  grid-area: sqaside;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sqaside h2 {
+  align-self: center;
+  margin: 1rem;
+}
+
+.sqaside h3 {
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.sqaside img {
+  align-content: center;
+  margin-left: 12rem;
+  width: 200px;
+}
+
+.sqaside img:hover {
+  scale: 125%;
+}
+
+.sqcontenedor {
+  margin: auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto 4fr auto;
+  grid-template-areas: "squirtle squirtle" "sqmain sqaside" "footer footer";
+}
+
+.sqmain {
+  background-color: white;
+  padding: 1.2rem;
+  grid-area: sqmain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sqmain h1 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.sqmain .img {
+  align-self: center;
+}
+
+.sqmain p {
+  line-height: 1.5;
+  padding: 1rem;
+}
+
+.squirtle {
+  background-image: url(/img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg);
+  background: repeat cover;
+  padding: 1.4rem;
+  grid-area: squirtle;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.squirtle img {
+  width: 100px;
+}
+
+.squirtle nav ul {
+  list-style: none;
+  background-color: #7f8bf7;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.squirtle nav ul a {
+  color: black;
+  text-decoration: none;
+  padding: 0.7rem;
+  display: block;
+}
+
+.squirtle nav ul ul {
+  position: absolute;
+  display: none;
+}
+
+.squirtle nav ul ul li {
+  display: block;
+}
+
+ul li:hover ul {
+  display: block;
+  background-color: rgb(141, 110, 110);
+}
+
+.squirtle nav li a:hover {
+  background-color: rgb(107, 181, 216);
+  color: black;
+}
+
+.waraside {
+  background-color: #7ff7d9;
+  padding: 1.2rem;
+  grid-area: waraside;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.waraside h2 {
+  align-self: center;
+  margin: 1rem;
+}
+
+.waraside h3 {
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.waraside img {
+  align-content: center;
+  margin-left: 12rem;
+  width: 200px;
+}
+
+.waraside img:hover {
+  scale: 125%;
+}
+
+.warcontenedor {
+  margin: auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto 4fr auto;
+  grid-template-areas: "wartortle wartortle" "warmain waraside" "footer footer";
+}
+
+.warmain {
+  background-color: white;
+  padding: 1.2rem;
+  grid-area: warmain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.warmain h1 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.warmain .img {
+  align-self: center;
+}
+
+.warmain p {
+  line-height: 1.5;
+  padding: 1rem;
+}
+
+.wartortle {
+  background-image: url(/img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg);
+  background: repeat cover;
+  padding: 1.4rem;
+  grid-area: wartortle;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wartortle img {
+  width: 60px;
+}
+
+.wartortle nav ul {
+  list-style: none;
+  background-color: #7f8bf7;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wartortle nav ul a {
+  color: black;
+  text-decoration: none;
+  padding: 0.7rem;
+  display: block;
+}
+
+.wartortle nav ul ul {
+  position: absolute;
+  display: none;
+}
+
+.wartortle nav ul ul li {
+  display: block;
+}
+
+ul li:hover ul {
+  display: block;
+  background-color: rgb(141, 110, 110);
+}
+
+.wartortle nav li a:hover {
+  background-color: rgb(107, 181, 216);
+  color: black;
+}
+
+.footer {
+  background-color: #7b7b7b;
+  padding: 1.2rem;
+  grid-area: footer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer p {
+  color: white;
+}
+
+.footer img {
+  width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .contenedor {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 2fr auto auto;
+    grid-template-areas: "header" "main" "aside" "footer";
+  }
+}
+@media screen and (max-width: 768px) {
+  .pikacontenedor {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 2fr auto auto;
+    grid-template-areas: "pika" "pikamain" "pikaaside" "footer";
+  }
+}

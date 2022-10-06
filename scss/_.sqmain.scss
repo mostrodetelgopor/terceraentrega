@@ -1,0 +1,20 @@
+.sqmain{
+    background-color: white;
+    padding:1.2rem;
+    grid-area: sqmain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.sqmain h1{
+    text-align: center;
+    padding: 1rem;
+}
+.sqmain .img{
+    align-self: center;
+}
+.sqmain p{
+    line-height: 1.5;
+    padding: 1rem;
+}

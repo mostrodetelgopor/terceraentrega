@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:black;
+    
+}
+@import ".aside";
+@import ".blasto";
+@import ".blastoaside";
+@import ".blastocontenedor";
+@import ".blastomain";
+@import ".contenedor";
+@import ".footer";
+@import ".header";
+@import ".main";
+@import ".pichu";
+@import ".pichuaside";
+@import ".pichucontenedor";
+@import ".pichumain";
+@import ".pika";
+@import ".pikaaside";
+@import ".pikacontenedor";
+@import ".pikamain";
+@import ".raiaside";
+@import ".raichu";
+@import ".raicontenedor";
+@import ".raimain";
+@import ".sqaside";
+@import ".sqcontenedor";
+@import ".sqmain";
+@import ".squirtle";
+@import ".waraside";
+@import ".warcontenedor";
+@import ".warmain";
+@import ".wartortle";
+
+
+
+
+
+
+
+
+@import ".footer";
+
+
+@media screen and (max-width:768px){
+    .contenedor{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 2fr auto auto;
+        grid-template-areas:
+        "header"
+        "main" 
+        "aside"
+        "footer";
+        
+    }
+}
+@media screen and (max-width:768px){
+    .pikacontenedor{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 2fr auto auto;
+        grid-template-areas:
+        "pika"
+        "pikamain" 
+        "pikaaside"
+        "footer";
+        
+    }
+}

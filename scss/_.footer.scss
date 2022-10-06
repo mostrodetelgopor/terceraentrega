@@ -1,0 +1,13 @@
+.footer{
+    background-color: #7b7b7b;
+    padding:1.2rem;
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+}
+.footer p{
+    color: white;
+}
+.footer img{
+    width: 100px;
+}

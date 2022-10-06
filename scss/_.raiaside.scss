@@ -1,0 +1,25 @@
+.raiaside{
+    background-image: url(/img/Pikachu-Wallpaper-Pics-Download-2-scaled.jpg);
+    padding: 1.2rem;
+    grid-area: raiaside;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.raiaside h2{
+    align-self: center;
+    margin: 1rem;
+}
+.raiaside h3{
+    align-items: center;
+    margin-left: 2rem;
+}
+.raiaside img{
+    align-content: center;
+    margin-left: 12rem;
+    width: 200px;
+}
+.raiaside img:hover{
+    scale: 125%;
+}

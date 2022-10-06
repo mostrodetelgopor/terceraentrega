@@ -1,0 +1,20 @@
+.raimain{
+    background-color: white;
+    padding:1.2rem;
+    grid-area: raimain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.raimain h1{
+    text-align: center;
+    padding: 1rem;
+}
+.raimain .img{
+    align-self: center;
+}
+.raimain p{
+    line-height: 1.5;
+    padding: 1rem;
+}

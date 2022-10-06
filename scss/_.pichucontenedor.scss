@@ -1,0 +1,11 @@
+.pichucontenedor{
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto 4fr auto;
+    grid-template-areas:
+    "pichu pichu"
+    "pichumain pichuaside"
+    "footer footer";
+}

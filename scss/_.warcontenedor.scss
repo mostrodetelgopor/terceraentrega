@@ -1,0 +1,12 @@
+.warcontenedor{
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto 4fr auto;
+    grid-template-areas:
+    "wartortle wartortle"
+    "warmain waraside"
+    "footer footer";
+    
+}

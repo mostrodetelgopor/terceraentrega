@@ -1,0 +1,20 @@
+.pikamain{
+    background-color: white;
+    padding:1.2rem;
+    grid-area: pikamain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.pikamain h1{
+    text-align: center;
+    padding: 1rem;
+}
+.pikamain .img{
+    align-self: center;
+}
+.pikamain p{
+    line-height: 1.5;
+    padding: 1rem;
+}

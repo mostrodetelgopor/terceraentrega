@@ -1,0 +1,22 @@
+.aside{
+    background-color: rgb(197, 70, 70);
+    padding: 1.2rem;
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.aside h2{
+    align-self: center;
+    margin: 1rem;
+}
+.aside h3{
+    align-items: center;
+    margin-left: 2rem;
+}
+.aside img{
+    align-self: center;
+    margin: 1rem;
+    scale: 75%;
+}

@@ -1,0 +1,42 @@
+.pika{
+    background-image: url(/img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg);
+    background: repeat cover;
+    padding: 1.4rem;
+    grid-area: pika;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.pika img{
+    width: 69px;
+}
+.pika nav ul{
+    list-style: none;
+    background-color: #ffd000;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.pika nav ul a{
+    color: black;
+    text-decoration: none;
+    padding: 0.7rem;
+    display: block;
+    
+}
+.pika nav ul ul{
+    position: absolute;
+    display: none;
+}
+.pika nav ul ul li{
+    display: block;
+}
+ul li:hover ul {
+    display: block;
+    background-color: pink;
+}
+.pika nav li a:hover{
+    background-color: red;
+    color:black;
+}

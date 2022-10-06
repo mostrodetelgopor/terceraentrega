@@ -1,0 +1,25 @@
+.pichuaside{
+    background-image: url(/img/Pikachu-Wallpaper-Pics-Download-2-scaled.jpg);
+    padding: 1.2rem;
+    grid-area: pichuaside;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.pichuaside h2{
+    align-self: center;
+    margin: 1rem;
+}
+.pichuaside h3{
+    align-items: center;
+    margin-left: 2rem;
+}
+.pichuaside img{
+    align-content: center;
+    margin-left: 12rem;
+    width: 200px;
+}
+.pichuaside img:hover{
+    scale: 125%;
+}

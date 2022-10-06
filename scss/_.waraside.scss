@@ -1,0 +1,25 @@
+.waraside{
+    background-color: #7ff7d9;
+    padding: 1.2rem;
+    grid-area: waraside;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.waraside h2{
+    align-self: center;
+    margin: 1rem;
+}
+.waraside h3{
+    align-items: center;
+    margin-left: 2rem;
+}
+.waraside img{
+    align-content: center;
+    margin-left: 12rem;
+    width: 200px;
+}
+.waraside img:hover{
+    scale: 125%;
+}

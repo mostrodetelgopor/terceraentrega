@@ -1,0 +1,42 @@
+.blasto{
+    background-image: url(/img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg);
+    background: repeat cover;
+    padding: 1.4rem;
+    grid-area: blasto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.blasto img{
+    width: 69px;
+}
+.blasto nav ul{
+    list-style: none;
+    background-color: #7f8bf7;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.blasto nav ul a{
+    color: black;
+    text-decoration: none;
+    padding: 0.7rem;
+    display: block;
+    
+}
+.blasto nav ul ul{
+    position: absolute;
+    display: none;
+}
+.blasto nav ul ul li{
+    display: block;
+}
+ul li:hover ul {
+    display: block;
+    background-color: rgb(141, 110, 110);
+}
+.blasto nav li a:hover{
+    background-color: rgb(107, 181, 216);
+    color:black;
+}

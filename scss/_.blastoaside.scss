@@ -1,0 +1,25 @@
+.blastoaside{
+    background-color: #7ff7d9;
+    padding: 1.2rem;
+    grid-area: blastoaside;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.blastoaside h2{
+    align-self: center;
+    margin: 1rem;
+}
+.blastoaside h3{
+    align-items: center;
+    margin-left: 2rem;
+}
+.blastoaside img{
+    align-content: center;
+    margin-left: 12rem;
+    width: 200px;
+}
+.blastoaside img:hover{
+    scale: 125%;
+}

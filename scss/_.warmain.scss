@@ -1,0 +1,20 @@
+.warmain{
+    background-color: white;
+    padding:1.2rem;
+    grid-area: warmain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.warmain h1{
+    text-align: center;
+    padding: 1rem;
+}
+.warmain .img{
+    align-self: center;
+}
+.warmain p{
+    line-height: 1.5;
+    padding: 1rem;
+}

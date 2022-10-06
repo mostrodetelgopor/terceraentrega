@@ -1,0 +1,42 @@
+.raichu{
+    background-image: url(/img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg);
+    background: repeat cover;
+    padding: 1.4rem;
+    grid-area: raichu;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.raichu img{
+    width: 100px;
+}
+.raichu nav ul{
+    list-style: none;
+    background-color: #ffd000;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.raichu nav ul a{
+    color: black;
+    text-decoration: none;
+    padding: 0.7rem;
+    display: block;
+    
+}
+.raichu nav ul ul{
+    position: absolute;
+    display: none;
+}
+.raichu nav ul ul li{
+    display: block;
+}
+ul li:hover ul {
+    display: block;
+    background-color: pink;
+}
+.raichu nav li a:hover{
+    background-color: red;
+    color:black;
+}
