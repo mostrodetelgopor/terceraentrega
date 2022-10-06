@@ -454,7 +454,7 @@ ul li:hover ul {
 }
 
 .raiaside {
-  background-image: url(/img/Pikachu-Wallpaper-Pics-Download-2-scaled.jpg);
+  background-image: url(../img/Pikachu-Wallpaper-Pics-Download-2-scaled.jpg);
   padding: 1.2rem;
   grid-area: raiaside;
   display: flex;
