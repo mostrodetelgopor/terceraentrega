@@ -112,7 +112,7 @@ ul li:hover ul {
 
 .blastocontenedor {
   margin: auto;
-  width: 90%;
+  width: 100%;
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: auto 4fr auto;
@@ -144,7 +144,7 @@ ul li:hover ul {
 
 .contenedor {
   margin: auto;
-  width: 90%;
+  width: 100%;
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: auto 4fr auto;
@@ -238,7 +238,7 @@ ul li:hover ul {
 }
 
 .pichu {
-  background-image: url(/img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg);
+  background-image: url(../img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg);
   background: repeat cover;
   padding: 1.4rem;
   grid-area: pichu;
@@ -285,7 +285,7 @@ ul li:hover ul {
 }
 
 .pichuaside {
-  background-image: url(/img/Pikachu-Wallpaper-Pics-Download-2-scaled.jpg);
+  background-image: url(../img/Pikachu-Wallpaper-Pics-Download-2-scaled.jpg);
   padding: 1.2rem;
   grid-area: pichuaside;
   display: flex;
@@ -315,7 +315,7 @@ ul li:hover ul {
 
 .pichucontenedor {
   margin: auto;
-  width: 90%;
+  width: 100%;
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: auto 4fr auto;
@@ -346,7 +346,7 @@ ul li:hover ul {
 }
 
 .pika {
-  background-image: url(/img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg);
+  background-image: url(../img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg);
   background: repeat cover;
   padding: 1.4rem;
   grid-area: pika;
@@ -393,7 +393,7 @@ ul li:hover ul {
 }
 
 .pikaaside {
-  background-image: url(/img/Pikachu-Wallpaper-Pics-Download-2-scaled.jpg);
+  background-image: url(../img/Pikachu-Wallpaper-Pics-Download-2-scaled.jpg);
   padding: 1.2rem;
   grid-area: pikaaside;
   display: flex;
@@ -423,7 +423,7 @@ ul li:hover ul {
 
 .pikacontenedor {
   margin: auto;
-  width: 90%;
+  width: 100%;
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: auto 4fr auto;
@@ -483,7 +483,7 @@ ul li:hover ul {
 }
 
 .raichu {
-  background-image: url(/img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg);
+  background-image: url(../img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg);
   background: repeat cover;
   padding: 1.4rem;
   grid-area: raichu;
@@ -531,7 +531,7 @@ ul li:hover ul {
 
 .raicontenedor {
   margin: auto;
-  width: 90%;
+  width: 100%;
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: auto 4fr auto;
@@ -592,7 +592,7 @@ ul li:hover ul {
 
 .sqcontenedor {
   margin: auto;
-  width: 90%;
+  width: 100%;
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: auto 4fr auto;
@@ -623,7 +623,7 @@ ul li:hover ul {
 }
 
 .squirtle {
-  background-image: url(/img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg);
+  background-image: url(../img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg);
   background: repeat cover;
   padding: 1.4rem;
   grid-area: squirtle;
@@ -700,7 +700,7 @@ ul li:hover ul {
 
 .warcontenedor {
   margin: auto;
-  width: 90%;
+  width: 100%;
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: auto 4fr auto;
@@ -731,7 +731,7 @@ ul li:hover ul {
 }
 
 .wartortle {
-  background-image: url(/img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg);
+  background-image: url(../img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg);
   background: repeat cover;
   padding: 1.4rem;
   grid-area: wartortle;
